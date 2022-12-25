@@ -1,4 +1,5 @@
 -- Credits, halal | kal
+-- https://discord.gg/BbBTNXCzff
 -- DON'T CHANGE ANY OF THE BELOW SETTINGS. THEY'VE BEEN ALREADY MODIFIED FOR YOU
 
 getgenv().Sky = true
