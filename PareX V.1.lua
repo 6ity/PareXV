@@ -1,10 +1,5 @@
 -- DON'T CHANGE ANY OF THE BELOW SETTINGS. THEY'VE BEEN ALREADY MODIFIED FOR YOU
 
-local CPlayer = Aiming.Selected
-local hrp = CPlayer.Character.HumanoidRootPart
-                hrp.Velocity = Vector3.new(hrp.Velocity.X, 0, hrp.Velocity.Y, hrp.Velocity.Z)    
-                hrp.AssemblyLinearVelocity = Vector3.new(hrp.Velocity.X, 0, hrp.Velocity.Y, hrp.Velocity.Z)
-
 getgenv().Sky = true
 getgenv().SkyAmount = 100
 
@@ -16,6 +11,7 @@ game:GetService("RunService").heartbeat:Connect(function()
     game.Players.LocalPlayer.Character.HumanoidRootPart.Velocity = vel
     end 
 end)
+
 
     Settings = {
         Kalslock = {
@@ -684,3 +680,7 @@ if game.PlaceId == 2788229376 then
 end
 end
 
+local CPlayer = Aiming.Selected
+local hrp = CPlayer.Character.HumanoidRootPart
+                hrp.Velocity = Vector3.new(hrp.Velocity.X, 0, hrp.Velocity.Y, hrp.Velocity.Z)    
+                hrp.AssemblyLinearVelocity = Vector3.new(hrp.Velocity.X, 0, hrp.Velocity.Y, hrp.Velocity.Z)
