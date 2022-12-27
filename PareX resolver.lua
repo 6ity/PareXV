@@ -1,6 +1,6 @@
 game.StarterGui:SetCore("SendNotification", {
                     Title = "✅ Executed";
-                    Text = "resolver has been successfully executed!",
+                    Text = "Resolver has been successfully executed!",
                     Icon = "http://www.roblox.com/asset/?id=8709610734",
                     Duration = 3
                 })
