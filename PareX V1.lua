@@ -24,18 +24,6 @@ game.StarterGui:SetCore("SendNotification", {
                     Duration = 3
                 })
 
-getgenv().Sky = true
-getgenv().SkyAmount = 100
-
-game:GetService("RunService").heartbeat:Connect(function()
-    if getgenv().Sky ~= false then 
-    local vel = game.Players.LocalPlayer.Character.HumanoidRootPart.Velocity
-    game.Players.LocalPlayer.Character.HumanoidRootPart.Velocity = Vector3.new(0,      getgenv().SkyAmount,0) 
-    game:GetService("RunService").RenderStepped:Wait()
-    game.Players.LocalPlayer.Character.HumanoidRootPart.Velocity = vel
-    end 
-end)
-
 
     Settings = {
         Kalslock = {
@@ -702,50 +690,4 @@ if game.PlaceId == 2788229376 then
     AnimationPack(game.Players.LocalPlayer.Character)
     game.Players.LocalPlayer.CharacterAdded:Connect(AnimationPack)
 end
-end
-
-local CPlayer = Aiming.Selected
-local hrp = CPlayer.Character.HumanoidRootPart
-                hrp.Velocity = Vector3.new(hrp.Velocity.X, 0, hrp.Velocity.Y, hrp.Velocity.Z)    
-                hrp.AssemblyLinearVelocity = Vector3.new(hrp.Velocity.X, 0, hrp.Velocity.Y, hrp.Velocity.Z)
-
-
-getgenv().VelocityChanger = true
-getgenv().Velocity = Vector3.new(200,0,200)
-
-
---// v2
-local Players     = game:GetService("Players")
-local RunService  = game:GetService("RunService")
-
-local LocalPlayer = Players.LocalPlayer
-local Character   = LocalPlayer.Character
-local RootPart    = Character:FindFirstChild("HumanoidRootPart")
-
-local Heartbeat, RStepped, Stepped = RunService.Heartbeat, RunService.RenderStepped, RunService.Stepped
-
-LocalPlayer.CharacterAdded:Connect(function(NewCharacter)
-   Character = NewCharacter
-end)
-
-local RVelocity, YVelocity = nil, 0.1
-
-while true do
-   if VelocityChanger then
-       --// this a dumb check asnilsadsa
-       if (not RootPart) or (not RootPart.Parent) or (not RootPart.Parent.Parent) then
-           warn("weird ahh died")
-           RootPart = Character:FindFirstChild("HumanoidRootPart")
-       else
-           RVelocity = RootPart.Velocity
-   
-           RootPart.Velocity = type(Velocity) == "vector" and Velocity or Velocity(RVelocity)
-       
-           RStepped:wait()
-       
-           RootPart.Velocity = RVelocity
-       end
-   end
-   
-   Heartbeat:wait()
 end
