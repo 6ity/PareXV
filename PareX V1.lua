@@ -3,28 +3,6 @@
 -- DON'T CHANGE ANY OF THE BELOW SETTINGS. THEY'VE BEEN ALREADY MODIFIED FOR YOU
 -- Stop skiding
 
-game.StarterGui:SetCore("SendNotification", {
-                    Title = "✅ Whitelisted";
-                    Text = "Script has been successfully loaded!",
-                    Icon = "http://www.roblox.com/asset/?id=8709610734",
-                    Duration = 3
-                })
-
-game.StarterGui:SetCore("SendNotification", {
-                    Title = "❓";
-                    Text = "GUI loaded!",
-                    Icon = "http://www.roblox.com/asset/?id=8709610734",
-                    Duration = 3
-                })
-
-game.StarterGui:SetCore("SendNotification", {
-                    Title = "✅ Loaded";
-                    Text = "Scripts loaded!",
-                    Icon = "http://www.roblox.com/asset/?id=8709610734",
-                    Duration = 3
-                })
-
-
     Settings = {
         Kalslock = {
         Enabled = true,
