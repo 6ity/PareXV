@@ -4,22 +4,22 @@
 -- Stop skiding
 
 game.StarterGui:SetCore("SendNotification", {
-                    Title = "  ✅ Whitelisted";
-                    Text = "  Script has been successfully loaded!",
+                    Title = "✅ Whitelisted";
+                    Text = "Script has been successfully loaded!",
                     Icon = "http://www.roblox.com/asset/?id=8709610734",
                     Duration = 3
                 })
 
 game.StarterGui:SetCore("SendNotification", {
-                    Title = "  ❓";
-                    Text = "  Press 'e'to lock & 'x' to auto click!",
+                    Title = "❓";
+                    Text = "GUI loaded!",
                     Icon = "http://www.roblox.com/asset/?id=8709610734",
                     Duration = 3
                 })
 
 game.StarterGui:SetCore("SendNotification", {
-                    Title = "  ✅ Loaded";
-                    Text = "  Anti Lock & Resolver loaded!",
+                    Title = "✅ Loaded";
+                    Text = "Scripts loaded!",
                     Icon = "http://www.roblox.com/asset/?id=8709610734",
                     Duration = 3
                 })
