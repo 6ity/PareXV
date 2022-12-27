@@ -1,5 +1,12 @@
+game.StarterGui:SetCore("SendNotification", {
+                    Title = "✅ Executed";
+                    Text = "Anti-Lock has been successfully executed!",
+                    Icon = "http://www.roblox.com/asset/?id=8709610734",
+                    Duration = 3
+                })
+
 getgenv().Sky = true
-getgenv().SkyAmount = 100
+getgenv().SkyAmount = 500
 
 game:GetService("RunService").heartbeat:Connect(function()
     if getgenv().Sky ~= false then 
