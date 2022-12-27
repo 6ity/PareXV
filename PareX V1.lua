@@ -3,6 +3,25 @@
 -- DON'T CHANGE ANY OF THE BELOW SETTINGS. THEY'VE BEEN ALREADY MODIFIED FOR YOU
 -- Stop skiding
 
+
+--[[
+        _G.Types = {
+            Ball = Enum.PartType.Ball,
+            Block = Enum.PartType.Block, 
+            Cylinder = Enum.PartType.Cylinder
+        }
+        
+        --variables                 
+            local Tracer = Instance.new("Part", game.Workspace)
+        Tracer.Name = "gay"
+        Tracer.Shape = _G.Types.Ball
+        Tracer.Material = "ForceField"
+        Tracer.Size = Vector3.new(7,7,7)
+        game:GetService("RunService").RenderStepped:Connect(function()
+        Tracer.Transparency = Options.MySlider.Value
+        Tracer.Color = Options.ColorPicker.Value
+        end)
+        --]]
     Settings = {
         Kalslock = {
         Enabled = true,
@@ -33,7 +52,7 @@
         NoBulletDelay = true,
         Autoclicker = true,
         AutoclickerTime = 0.01,
-        AutoclickerKey = "x",
+        AutoclickerKey = "v",
         AnimationPack = true
     
 }
