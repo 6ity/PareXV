@@ -59,7 +59,7 @@ game.StarterGui:SetCore("SendNotification", {
         NoBulletDelay = true,
         Autoclicker = true,
         AutoclickerTime = 0.01,
-        AutoclickerKey = "v",
+        AutoclickerKey = "x",
         AnimationPack = true
     
 }
