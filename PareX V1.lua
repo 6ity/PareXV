@@ -1,3 +1,10 @@
+game.StarterGui:SetCore("SendNotification", {
+                    Title = "✅ Executed";
+                    Text = "Resolver has been successfully executed!",
+                    Icon = "http://www.roblox.com/asset/?id=8709610734",
+                    Duration = 3
+   })
+
 -- Credits, halal | kal
 -- https://discord.gg/BbBTNXCzff
 -- DON'T CHANGE ANY OF THE BELOW SETTINGS. THEY'VE BEEN ALREADY MODIFIED FOR YOU
