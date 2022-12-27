@@ -4,7 +4,7 @@
 local library = loadstring(game:HttpGet("https://raw.githubusercontent.com/6ity/PareXV/main/UI-LIB.lua", true))()
 
 
-local main = library:Load({Name = "Parex", Theme = "Dark", SizeX = 440, SizeY = 480, ColorOverrides = {}})
+local main = library:Load({Name = "PareX", Theme = "Dark", SizeX = 440, SizeY = 480, ColorOverrides = {}})
 local aimbot = main:Tab("Main")
 local section = aimbot:Section({Name = "", column = 1})
 
