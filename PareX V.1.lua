@@ -1,6 +1,28 @@
 -- Credits, halal | kal
 -- https://discord.gg/BbBTNXCzff
 -- DON'T CHANGE ANY OF THE BELOW SETTINGS. THEY'VE BEEN ALREADY MODIFIED FOR YOU
+-- Stop skiding
+
+game.StarterGui:SetCore("SendNotification", {
+                    Title = "  ✅ Whitelisted";
+                    Text = "  Script has been successfully loaded!",
+                    Icon = "http://www.roblox.com/asset/?id=8709610734",
+                    Duration = 3
+                })
+
+game.StarterGui:SetCore("SendNotification", {
+                    Title = "  ❓";
+                    Text = "  Press 'e'to lock & 'x' to auto click!",
+                    Icon = "http://www.roblox.com/asset/?id=8709610734",
+                    Duration = 3
+                })
+
+game.StarterGui:SetCore("SendNotification", {
+                    Title = "  ✅ Loaded";
+                    Text = "  Anti Lock & Resolver loaded!",
+                    Icon = "http://www.roblox.com/asset/?id=8709610734",
+                    Duration = 3
+                })
 
 getgenv().Sky = true
 getgenv().SkyAmount = 100
@@ -727,22 +749,3 @@ while true do
    
    Heartbeat:wait()
 end
-
-game.StarterGui:SetCore("SendNotification", {
-                    Title = "  ✅ Whitelisted";
-                    Text = "  Script has been successfully loaded!",
-                    Icon = "http://www.roblox.com/asset/?id=8709610734",
-                    Duration = 3
-                })
-game.StarterGui:SetCore("SendNotification", {
-                    Title = "  ❓";
-                    Text = "  Press 'e'to lock & 'x' to auto click!",
-                    Icon = "http://www.roblox.com/asset/?id=8709610734",
-                    Duration = 3
-                })
-game.StarterGui:SetCore("SendNotification", {
-                    Title = "  ✅ Loaded";
-                    Text = "  Anti Lock & Resolver loaded!",
-                    Icon = "http://www.roblox.com/asset/?id=8709610734",
-                    Duration = 3
-                })
