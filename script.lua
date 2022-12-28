@@ -13,9 +13,11 @@ local section = aimbot:Section({Name = "", column = 1})
 
 local label = section:Label("Scripts")
 
-
 local button = section:Button({Name = "Lock", Callback = function()
 loadstring(game:HttpGetAsync("https://raw.githubusercontent.com/6ity/PareXV/main/PareX%20V1.lua"))()
+end})
+local button = section:Button({Name = "Hood Customs Lock", Callback = function()
+loadstring(game:HttpGetAsync("https://raw.githubusercontent.com/6ity/PareXV/main/HoodCustoms.lua"))()
 end})
 local button = section:Button({Name = "Anti Lock", Callback = function()
 loadstring(game:HttpGetAsync("https://raw.githubusercontent.com/6ity/PareXV/main/PareX%20Anti.lua"))()
