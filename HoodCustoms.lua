@@ -1,9 +1,16 @@
 game.StarterGui:SetCore("SendNotification", {
                     Title = "✅ Executed";
-                    Text = "Hood Customs Lock has been successfully executed! Press 'e' to enable",
+                    Text = "Hood Customs Lock has been successfully executed!",
                     Icon = "http://www.roblox.com/asset/?id=8709610734",
                     Duration = 3
+   })
 
+game.StarterGui:SetCore("SendNotification", {
+                    Title = "❓ Help";
+                    Text = "Press 'e' to enable Auto Clicker",
+                    Icon = "http://www.roblox.com/asset/?id=8709610734",
+                    Duration = 3
+   })
     
 -- PareX is not the author of this script
 
