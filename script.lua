@@ -4,7 +4,7 @@
 local library = loadstring(game:HttpGet("https://raw.githubusercontent.com/6ity/PareXV/main/UI-LIB.lua", true))()
 
 
-local main = library:Load({Name = "PareX", Theme = "Dark", SizeX = 440, SizeY = 480, ColorOverrides = {}})
+local main = library:Load({Name = "🌎 PareX", Theme = "Dark", SizeX = 440, SizeY = 480, ColorOverrides = {}})
 local aimbot = main:Tab("Main")
 local section = aimbot:Section({Name = "", column = 1})
 
@@ -13,17 +13,20 @@ local section = aimbot:Section({Name = "", column = 1})
 
 local label = section:Label("Scripts")
 
-local button = section:Button({Name = "Lock", Callback = function()
+local button = section:Button({Name = "🌙  Lock", Callback = function()
 loadstring(game:HttpGetAsync("https://raw.githubusercontent.com/6ity/PareXV/main/PareX%20V1.lua"))()
 end})
-local button = section:Button({Name = "Hood Customs Lock", Callback = function()
+local button = section:Button({Name = "🌙  Hood Customs Lock", Callback = function()
 loadstring(game:HttpGetAsync("https://raw.githubusercontent.com/6ity/PareXV/main/HoodCustoms.lua"))()
 end})
-local button = section:Button({Name = "Anti Lock", Callback = function()
+local button = section:Button({Name = "🌙  Anti Lock", Callback = function()
 loadstring(game:HttpGetAsync("https://raw.githubusercontent.com/6ity/PareXV/main/PareX%20Anti.lua"))()
 end})
-local button = section:Button({Name = "Resolver", Callback = function()
+local button = section:Button({Name = "🌙  Resolver", Callback = function()
 loadstring(game:HttpGetAsync("https://raw.githubusercontent.com/6ity/PareXV/main/PareX%20resolver.lua"))()
+end})
+local button = section:Button({Name = "🌙  Aim Viewer", Callback = function()
+loadstring(game:HttpGetAsync("https://raw.githubusercontent.com/6ity/PareXV/main/AimViewer"))()
 end})
 
 
