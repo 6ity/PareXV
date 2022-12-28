@@ -1,6 +1,6 @@
 game.StarterGui:SetCore("SendNotification", {
                     Title = "✅ Executed";
-                    Text = "Hood Customs Lock has been successfully executed!",
+                    Text = "Hood Customs Lock has been successfully executed! Press 'e' to enable",
                     Icon = "http://www.roblox.com/asset/?id=8709610734",
                     Duration = 3
 
