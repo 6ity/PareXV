@@ -44,11 +44,11 @@ game.StarterGui:SetCore("SendNotification", {
         Key = "e",
         showdot = false,
         airshots = true,
-        notifaction = false,
+        notifaction = true,
         pingprediction = true,
         FOV = math.huge,
         RESOVLER = true,
-        Tracer = true,
+        Tracer = false,
         TracerColor = Color3.new(0, 255, 238),
         TracerTransparency = 0.75,
         TracerThickness = 5,
@@ -69,7 +69,7 @@ game.StarterGui:SetCore("SendNotification", {
         Autoclicker = true,
         AutoclickerTime = 0.01,
         AutoclickerKey = "x",
-        AnimationPack = true
+        AnimationPack = false
     
 }
 }
