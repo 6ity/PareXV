@@ -196,7 +196,7 @@ game.StarterGui:SetCore("SendNotification", {
                     Title = "  Kal >3";
                     Text = "  Unlocked",
                     Icon = "http://www.roblox.com/asset/?id=5314810647",
-                    Duration = 3
+                    Duration = 1
                 })
             end
             else
@@ -208,7 +208,7 @@ game.StarterGui:SetCore("SendNotification", {
                         Title = "  Kal >3";
                         Text = "  Target: "..tostring(Plr.Character.Humanoid.DisplayName),
                         Icon = "http://www.roblox.com/asset/?id=8709610734",
-                        Duration = 3
+                        Duration = 1
                     })
 
                 end
